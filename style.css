@@ -1,4 +1,4 @@
-#container {
+.gridContainer {
     width: 700px;
     height: 700px;
     display: flex;
@@ -6,6 +6,11 @@
     border: solid;
 }
 
-#container>* {
-    flex: 0 0 6.25%;
+.hover {
+    background-color: beige;
+}
+
+body {
+    display: flex;
+    justify-content: center;
 }
